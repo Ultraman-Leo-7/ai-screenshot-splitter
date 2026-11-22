@@ -6,7 +6,7 @@
 
 ## 下载和使用
 
-从 [Releases 下载最新版](https://github.com/Ultraman-Leo-7/ai-screenshot-splitter/releases/latest)中的 `长图切分.exe`。
+从 [Releases 下载最新版](https://github.com/Ultraman-Leo-7/ai-screenshot-splitter/releases/latest)中的 `ai-screenshot-splitter-windows-x64.exe`。
 
 1. 双击 EXE，把图片拖进窗口后按回车。支持多张、连续处理，输入 `q` 退出。
 2. 也可以把一张或多张图片直接拖到 EXE 图标上，处理结束后按回车关闭窗口。
@@ -32,10 +32,10 @@
 ## 命令行参数
 
 ```powershell
-& ".\长图切分.exe" "D:\图片\长截图.png"
-& ".\长图切分.exe" "D:\图片\一.png" "D:\图片\二.jpg"
-& ".\长图切分.exe" "D:\图片\长截图.png" --height-ratio 1.8 --overlap-ratio 0.15 --output-dir "D:\图片\结果"
-& ".\长图切分.exe" --help
+& ".\ai-screenshot-splitter-windows-x64.exe" "D:\图片\长截图.png"
+& ".\ai-screenshot-splitter-windows-x64.exe" "D:\图片\一.png" "D:\图片\二.jpg"
+& ".\ai-screenshot-splitter-windows-x64.exe" "D:\图片\长截图.png" --height-ratio 1.8 --overlap-ratio 0.15 --output-dir "D:\图片\结果"
+& ".\ai-screenshot-splitter-windows-x64.exe" --help
 ```
 
 `--merge-tail-ratio` 可调整尾段阈值。含空格的路径请加引号。终端交互支持 CMD 双引号、PowerShell 单引号及开头的 `&`，输入只作为路径解析，不执行命令。
