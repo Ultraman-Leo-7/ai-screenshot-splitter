@@ -1,0 +1,9 @@
+.venv/
+.build-env/
+__pycache__/
+*.py[cod]
+.test-artifacts/
+build/
+dist/
+*.spec
+*.exe

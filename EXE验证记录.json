@@ -1,0 +1,27 @@
+{
+  "platform": "Windows 11 x64",
+  "build": {
+    "Python": "3.14.5",
+    "Pillow": "13.0.0",
+    "PyInstaller": "6.22.3"
+  },
+  "exe_bytes": 15989897,
+  "sha256": "1c5d77602cf7e9e32b4537feef1b0c6a50b0acb374f0752c77dbb23d76608685",
+  "checks_passed": [
+    "隔离目录只含一个 EXE，PATH 不含 Python，PYTHONHOME/PYTHONPATH 指向不存在位置",
+    "独立 EXE 启动和命令行帮助",
+    "多图参数以及中文、空格和特殊字符路径",
+    ".png 解码及裁剪像素一致：中文 长图 & O'Brien!%.png",
+    "1080×10000 长图输出 6 张、首尾完整覆盖",
+    ".png 解码及裁剪像素一致：透明 图.png",
+    ".jpg 解码及裁剪像素一致：CMYK 图片.jpg",
+    ".webp 解码及裁剪像素一致：WebP 图片.webp",
+    "所有原图字节未改动",
+    "重复运行创建新目录，保留旧结果",
+    "双击对应的交互模式：空行、图片路径、q 退出",
+    "单张失败继续下一张，返回失败状态",
+    "非法比例拒绝执行",
+    "EXIF 旋转校正"
+  ],
+  "limitation": "在现有 Windows 电脑上隔离运行验证，未在另一台无 Python 的实体电脑上测试。"
+}
